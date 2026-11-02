@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy — Chelete backups</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy</h1>
+    <p>This page describes the personal Chelete backup utility. These pages do not collect messages, and they do not set cookies.</p>
+    <h2>Who can use it</h2>
+    <p>The utility is for one operator. It is not offered as an account other people can sign in to.</p>
+    <h2>Drive access</h2>
+    <p>The only Google user data the utility requests is through <code>drive.file</code>. That permission lets the app create files and lets it see, change, and delete files this app created. It does not grant the app the rest of the operator’s Drive.</p>
+    <p>The file placed in Drive is an encrypted archive. The utility does not put the encryption key in Drive.</p>
+    <h2>Encryption and key separation</h2>
+    <p>Encryption happens on the operator’s computer before upload. The key is kept apart from the Drive folder and apart from this website. Someone with the Drive file still needs that separate key to read the backup.</p>
+    <h2>Retention</h2>
+    <p>The utility is built so that a later activated schedule would keep 14 daily copies, and then 4 weekly and 3 monthly archives of those daily copies. That schedule is not running.</p>
+    <p>An uploaded encrypted file stays in the folder this app created until the operator deletes it. The program does not currently remove older Drive copies by itself.</p>
+    <h2>Deletion</h2>
+    <p>The operator can delete an encrypted file from the folder this app created. Removing the app’s Google permission stops the app from using Drive afterward. Files already stored there remain until they are deleted in Drive.</p>
+    <p>Deleting a Drive file does not delete the separate encryption key. Deleting the key does not delete the Drive file. Without the key, the archive cannot be decrypted.</p>
+    <p><a href="../">Home</a> · <a href="../terms/">Terms</a></p>
+  </main>
+</body>
+</html>

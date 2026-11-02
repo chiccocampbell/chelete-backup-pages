@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chelete backups</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Chelete backups</h1>
+    <p>This site describes a personal backup utility. It is not the Chelete application, and it has no login.</p>
+    <p>The utility encrypts a backup on the operator’s computer. It then uploads only that encrypted file to a Google Drive folder created by this app.</p>
+    <h2>Google Drive access</h2>
+    <p>The app requests one Google permission, <code>drive.file</code>. With that permission the app can create files and can see, change, and delete files this app created. It does not request access to the rest of Google Drive.</p>
+    <p>Choosing a folder tells the utility where to put its own files. That choice is not a separate restriction inside the Google permission. The permission itself is limited to files this app creates.</p>
+    <h2>Encryption</h2>
+    <p>Each backup is encrypted before it is uploaded. Google Drive stores the encrypted file. The encryption key is not uploaded and is not stored on this website.</p>
+    <p><a href="privacy/">Privacy</a> · <a href="terms/">Terms</a></p>
+  </main>
+</body>
+</html>
